@@ -1,0 +1,42 @@
+.navbar {
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif
+}
+.container p{
+    color: gray;
+    font-family: sans-serif
+}
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1650915296379-4432f4fb8612?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.25; */
+    text-align: center;
+}
+body {
+    margin: 0px;
+}
+.banner img{
+    width: 450px;
+    /* opacity: 1 !important; */
+    margin-top: 50px;
+}
+.banner h6 {
+    /* opacity: 1 !important; */
+    color: purple;
+    font-size: larger;
+}
+.banner a {
+    text-decoration: none;
+    color: purple;
+    border: 1px 120px solid gray;
+
+}
